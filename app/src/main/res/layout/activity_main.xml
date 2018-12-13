@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加数据"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/add"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="查询数据"
+      android:textSize="20dp"
+      android:layout_marginBottom="10dp"
+      android:id="@+id/search"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="删除数据"
+      android:textSize="20dp"
+      android:layout_marginBottom="10dp"
+      android:id="@+id/delete"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="修改数据"
+      android:textSize="20dp"
+      android:layout_marginBottom="10dp"
+      android:id="@+id/modify"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库大小"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/test_max_num"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除数据"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/clear_table"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="测试查询数据"
+      android:textSize="20dp"
+      android:layout_marginBottom="10dp"
+      android:id="@+id/test_search"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="测试外键"
+      android:textSize="20dp"
+      android:layout_marginBottom="10dp"
+      android:id="@+id/test_foreignkey"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试升级"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/test_upgrade"></TextView>
+</LinearLayout>
